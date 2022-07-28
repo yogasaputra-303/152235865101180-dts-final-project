@@ -2,6 +2,7 @@ import React from 'react'
 import {useEffect, useState} from 'react';
 import {useParams} from 'react-router-dom';
 import styled from 'styled-components';
+import { Link } from "react-router-dom"
 
 function Dicari() {
     const [dicariRecipes, setDicariRecipes] = useState ([]);
@@ -21,8 +22,10 @@ function Dicari() {
     {dicariRecipes.map((item)=> {
       return(
         <Card key={item.id}>
+          <Link to={'/resep/' + item.id}>
           <img src={item.image} alt="" />
           <h4>{item.title}</h4>
+          </Link> 
         </Card>
       )
     })}
