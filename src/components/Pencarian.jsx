@@ -36,6 +36,7 @@ const FormStyle = styled.form`
     div{
         width: 100%;
         position: relative;
+       
     }
     input{
         border: none;
