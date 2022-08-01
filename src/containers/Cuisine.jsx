@@ -43,6 +43,7 @@ const Grid = styled(motion.div)`
   grid-grap: 3rem;
 `;
 const Card = styled.div`
+  margin: 0.5rem;
   img{
     width: 100%;
     border-radius: 2rem;

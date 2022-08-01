@@ -32,7 +32,7 @@ const getPopular = async () => {
   return (
         <div>
             <Wrapper>
-                <h3>Best Seller</h3>
+                <h3>Terpopuler</h3>
 
                 <Splide options={{
                     perPage: 4,

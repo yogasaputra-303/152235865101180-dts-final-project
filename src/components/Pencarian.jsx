@@ -30,7 +30,8 @@ function Pencarian() {
 }
 
 const FormStyle = styled.form`
-    margin: 0rem 20rem;
+    margin: 2rem 20rem;
+    margin-top: 7rem;
 
     div{
         width: 100%;

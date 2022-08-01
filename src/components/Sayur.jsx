@@ -32,7 +32,7 @@ const getSayur = async () => {
 
   return <div>
   <Wrapper>
-      <h3>Menu Sayuran Kami</h3>
+      <h3>Resep Vegetarian</h3>
 
       <Splide options={{
           perPage: 3,
