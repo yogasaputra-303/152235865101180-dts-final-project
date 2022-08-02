@@ -32,5 +32,6 @@ h4 {
   margin: 2rem 0rem;
 }
 a{
-  color: rgb(41, 38, 38);
+  color: rgb(3, 3, 3);
+  text-decoration: none;
 }

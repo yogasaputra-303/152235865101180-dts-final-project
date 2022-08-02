@@ -32,7 +32,7 @@ const getSayur = async () => {
 
   return <div>
   <Wrapper>
-      <h3>Resep Vegetarian</h3>
+      <h2>Resep Vegetarian</h2>
 
       <Splide options={{
           perPage: 3,
@@ -60,7 +60,11 @@ const getSayur = async () => {
 }
 
 const Wrapper = styled.div`
-    margin: 4rem 0rem;
+    margin: 1rem 1rem;
+    h2{
+        color: #a30cb0;
+        
+    }
 `;
 
 const Card = styled.div`
@@ -68,7 +72,9 @@ const Card = styled.div`
     border-radius: 2rem;
     overflow: hidden;
     position: relative;
-
+    box-shadow: 10px 5px 5px 0px black;
+    margin: 3rem 0 3rem 0;
+    display: grid;
     img{
         border-radius: 2rem;
         position: absolute;
@@ -94,6 +100,22 @@ const Card = styled.div`
         align-items: center;
 
     }
+    &:hover{
+        transform: scale(1.2);
+        transition-duration: 0.5s;
+    }
+
+    @media screen and (max-width:600px){
+        grid-template-columns: repeat(2,1fr);
+        img{
+            border-radius: 2rem;
+            position: absolute;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
 `;
 
 const Gradient = styled.div`
@@ -104,5 +126,7 @@ const Gradient = styled.div`
     background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5));
 
 ` ;
+
+
 
 export default Sayur;

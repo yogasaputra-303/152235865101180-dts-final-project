@@ -20,7 +20,7 @@ const Navbar = () => {
       <Appbar>
         <Toolbar>
 
-        <GiKnifeFork style={{fontSize: '2rem'}}/>
+        <GiKnifeFork style={{fontSize: '2rem', color: 'white'}}/>
           <Typography
             variant="h6"
             sx={{
@@ -31,7 +31,7 @@ const Navbar = () => {
               letterSpacing: '.3rem',
             }}
           >
-            <Link style={{ color: 'inherit', textDecoration: 'inherit', fontFamily: 'Lobster Two', fontSize: '2rem' }} to="/">
+            <Link style={{ color: 'white', textDecoration: 'inherit', fontFamily: 'Lobster Two', fontSize: '2rem' }} to="/">
               Sriwijaya Resep
             </Link>
           </Typography>

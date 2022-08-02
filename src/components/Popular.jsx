@@ -32,7 +32,7 @@ const getPopular = async () => {
   return (
         <div>
             <Wrapper>
-                <h3>Terpopuler</h3>
+                <h2>Terpopuler</h2>
 
                 <Splide options={{
                     perPage: 4,
@@ -61,7 +61,10 @@ const getPopular = async () => {
 }  
 
 const Wrapper = styled.div`
-    margin: 4rem 0rem;
+    margin: 0rem 0rem;
+    h2{
+        color: #a30cb0;
+    }
 `;
 
 const Card = styled.div`
@@ -69,6 +72,8 @@ const Card = styled.div`
     border-radius: 2rem;
     overflow: hidden;
     position: relative;
+    box-shadow: 10px 5px 5px 0px black;
+    margin: 3rem 0 3rem 0;
 
     img{
         border-radius: 2rem;
@@ -95,6 +100,11 @@ const Card = styled.div`
         align-items: center;
 
     }
+    &:hover{
+        transform: scale(1.2);
+        transition-duration: 0.5s;
+    }
+
 `;
 
 const Gradient = styled.div`

@@ -1,4 +1,4 @@
-import LockOutlinedIcon from '@mui/icons-material/LockOutlined';
+import EmojiFoodBeverageIcon from '@mui/icons-material/EmojiFoodBeverage';
 import Avatar from '@mui/material/Avatar';
 import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
@@ -42,10 +42,10 @@ const Login = () => {
                 }}
             >
                 <Avatar sx={{ m: 1, bgcolor: 'secondary.main' }}>
-                    <LockOutlinedIcon />
+                    <EmojiFoodBeverageIcon />
                 </Avatar>
                 <Typography component="h1" variant="h5">
-                    Silakkan Login Terlebih Dahulu
+                    Silakan Login Terlebih Dahulu
                 </Typography>
                 <Box component="form" onSubmit={handleSubmit} noValidate sx={{ mt: 1 }}>
                     <TextField

@@ -1,4 +1,4 @@
-import LockOutlinedIcon from '@mui/icons-material/LockOutlined';
+import StorefrontIcon from '@mui/icons-material/Storefront';
 import Avatar from '@mui/material/Avatar';
 import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
@@ -41,7 +41,7 @@ const Register = () => {
                 }}
             >
                 <Avatar sx={{ m: 1, bgcolor: 'secondary.main' }}>
-                    <LockOutlinedIcon />
+                    <StorefrontIcon />
                 </Avatar>
                 <Typography component="h1" variant="h5">
                     Sign up
@@ -82,7 +82,7 @@ const Register = () => {
                     <Grid container justifyContent="flex-end">
                         <Grid item>
                             <Link to="/login">
-                                Already have an account? Sign in
+                                Sudah Memiliki Akun? Login
                             </Link>
                         </Grid>
                     </Grid>
