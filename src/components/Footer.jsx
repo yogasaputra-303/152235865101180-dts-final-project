@@ -35,15 +35,12 @@ export default function Footer() {
           
           textAlign: 'center',
           mt: 'auto',
-          backgroundColor: (theme) =>
-            theme.palette.mode === 'light'
-              ? theme.palette.grey[200]
-              : theme.palette.grey[800],
+          
         }}
       >
         
           <Typography variant="body1">
-            YOGA SAPUTRA - 152235865101-180
+            <h2><b>YOGA SAPUTRA - 152235865101-180</b></h2>
           </Typography>
           <Copyright />
         
